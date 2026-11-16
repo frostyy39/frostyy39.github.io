@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Privacy notice | Frosty Performance Sync</title>
+  <style>
+    :root { color-scheme: light; background: #f6f8f7; color: #182922; font-family: "Inter", system-ui, sans-serif; }
+    body { margin: 0; }
+    main { width: min(42rem, calc(100% - 3rem)); margin: clamp(2rem, 8vw, 6rem) auto; }
+    nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin-bottom: 2.4rem; }
+    a { color: #235e48; text-underline-offset: .2em; }
+    a[aria-current="page"] { font-weight: 650; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.03; letter-spacing: -.045em; margin: 0 0 1.5rem; }
+    p { line-height: 1.68; margin: 0 0 1.1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Frosty Performance Sync"><a href="./index.html">Home</a> <a href="./privacy.html" aria-current="page">Privacy notice</a> <a href="./terms.html">Terms of use</a></nav>
+    <h1>Privacy notice</h1>
+    <p>Frosty Performance Sync requests read-only Google Health access to health measurements for daily resting heart rate and heart rate variability, and to activity and fitness data for the completed-day total calorie estimate if enabled. It requests and uses only the date-level observations needed for the owner’s recovery tracker. The connected device must sync with Google Health before new data can be read.</p>
+<p>The tool uses these dates and measurements to check eligibility, fill blank cells in the owner’s private Google Sheet and identify revisions for review. Records already entered in the tracker remain protected. The tool keeps the values and source notes in the private tracker, and records operational outcomes for troubleshooting. It uses credential storage with restricted access and encryption at rest for any long-lived authorisation. Processing uses encrypted connections to Google’s APIs. Raw device records and credentials do not appear in tracker notes or operating logs.</p>
+<p>The owner controls sharing of the tracker. Google operates Google Health, authorisation and Google Sheets. The tool does not sell data, use it for advertising or send it to outside recipients. The use of information received from the Google Health API adheres to the Google Health API Developer and User Data Policy, including the Limited Use requirements.</p>
+<p>The owner can stop the importer and remove its access in Google Account Connections. Revoking access stops subsequent retrieval. Imported measurements and their source notes remain in the private tracker until the owner chooses to remove them. The owner can use the support contact shown on the consent screen for help with access or removal.</p>
+  </main>
+</body>
+</html>
